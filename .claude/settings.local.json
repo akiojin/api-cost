@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm test)",
+      "Bash(chmod:*)",
+      "Bash(npm run lint)",
+      "Bash(npm run typecheck:*)",
+      "Bash(node dist/cli.js --help)",
+      "Bash(npm run api-cost:*)"
+    ],
+    "deny": []
+  }
+}
